@@ -1,0 +1,134 @@
+  :root {
+
+      /* Import das fontes a utilizar globalmente*/
+      --montserrat: 'Montserrat', sans-serif;
+      --poppins: 'Poppins', sans-serif;
+      --inter: 'Inter', sans-serif;
+      --roboto: 'Roboto', sans-serif;
+
+      /* Import das cores a utilizar globalmente*/
+      --preto: #292929;
+      --cinza: #616161;
+      --branco1: #FBFBFB;
+      --branco2: #F3F3F3;
+      --vermelho: #DA2535;
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+  }
+
+  a {
+      text-decoration: none;
+  }
+  
+  html {
+    font-size: 62.25%;
+  }
+
+  .container {
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+
+  .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 20px;
+      flex-wrap: wrap;
+  }
+
+  .menu {
+      display: flex;
+      gap: 90px;
+      list-style: none;
+  }
+
+  .item-menu a {
+      color: var(--preto);
+      font-family: var(--inter);
+      font-size: 1.8rem;
+      font-weight: 500;
+      position: relative;
+      transition: .3s;
+  }
+
+  .item-menu a:hover {
+      color: var(--vermelho);
+  }
+
+
+  .menu-mb {
+      display: none;
+  }
+
+  .login {
+      color: var(--preto);
+      font-family: var(--inter);
+      font-size: 1.8rem;
+      font-weight: 600;
+      border-radius: 10px;
+      border: 2px solid var(--preto);
+      display: block;
+      padding: 10px 60px;
+  }
+
+  .login:hover {
+      color: var(--vermelho);
+      border: 2px solid var(--vermelho);
+  }
+
+  .CO {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+
+  }
+  
+  .content-CO {
+   max-width: 520px;
+  }
+
+  .CO h1 {
+    color: var(--black);
+    font-family: var(--montserrat);
+    font-size: 4.8rem;
+    margin-bottom: 2.4rem;
+  }
+  
+  .CO p {
+    color: var(--black);
+    font-family: var(--inter);
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+  }
+  
+  .CO a {
+    display: block;
+    color: var(--branco1);
+    font-family: var(--inter);
+    font-size: 2.4rem;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: var(--vermelho);
+    max-width: 290px;
+    text-align: center;
+  }
+  
+  .img-sushi img {
+    margin-top: 100px;
+  }
+  
+  
